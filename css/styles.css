@@ -376,8 +376,25 @@ margin-bottom: 16px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #2196F3;
+    background-color: var(--white-color);
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-link:hover, 
+.soc-link:focus {
+background-color: #2196F3;
+}
+
+.soc-icon {
+fill: #AFB1B8;
+}
+
+.soc-icon:hover, 
+.soc-icon:focus {
+    fill: var(--white-color);
+    background-color: #2196F3;
 }
 
 /* -----------------Футер-------------------- */
