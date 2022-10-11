@@ -327,6 +327,10 @@ gap: 30px;
     width: calc((100% - 60px) / 3);
 }
 
+.features {
+    padding-top: 0;
+}
+
 .section-subtitle {
 margin-bottom: 10px;
 
@@ -359,13 +363,22 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 color: #757575;
+margin-bottom: 16px;
 }
 
-.features {
-    padding-top: 0;
-
+.soc-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
+.soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    display: flex;
+}
 
 /* -----------------Футер-------------------- */
 
