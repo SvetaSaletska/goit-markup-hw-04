@@ -149,6 +149,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+align-items: center;
 color: var(--secondary-text-color);
 }
 
@@ -175,6 +176,17 @@ color: var(--primary-text-color);
     color: var(--accent-color);
 }
 
+.mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.tel-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
 /* -------------------Hero------------------- */
 
 .hero {
@@ -331,6 +343,12 @@ gap: 30px;
     padding-top: 0;
 }
 
+.section-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .section-subtitle {
 margin-bottom: 10px;
 
@@ -384,7 +402,7 @@ margin-bottom: 16px;
 
 .soc-link:hover, 
 .soc-link:focus {
-background-color: #2196F3;
+background-color: var(--accent-color);
 }
 
 .soc-icon {
@@ -394,7 +412,7 @@ fill: #AFB1B8;
 .soc-icon:hover, 
 .soc-icon:focus {
     fill: var(--white-color);
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 /* -----------------Футер-------------------- */
