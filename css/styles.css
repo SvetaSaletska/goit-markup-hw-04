@@ -430,21 +430,26 @@ fill: #AFB1B8;
     width: calc((100% - 150px) / 6);
 }
 
-.customers-container {
+.customers-link {
+    display: flex;
     max-width: 170px;
     height: 92px;
-
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
 
-.customers-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+.customers-icon {
+    fill: #AFB1B8;
+}
+
+.customers-link:hover {
+    fill: var(--accent-color);
+}
+
+.customers-icon:hover {
+    /* fill: var(--accent-color); */
 }
 
 /* -----------------Футер-------------------- */
