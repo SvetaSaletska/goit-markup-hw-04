@@ -153,6 +153,11 @@ align-items: center;
 color: var(--secondary-text-color);
 }
 
+.header-item {
+    align-items: center;
+    justify-content: center;
+}
+
 .header-mail,
 .header-tel {
 color: var(--primary-text-color);
@@ -396,7 +401,8 @@ margin-bottom: 16px;
     justify-content: center;
 }
 
-.soc-link {
+.soc-link, 
+.social-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -438,19 +444,15 @@ fill: #AFB1B8;
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-}
-
-.customers-icon {
     fill: #AFB1B8;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
     fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
-.customers-icon:hover {
-    /* fill: var(--accent-color); */
-}
 
 /* -----------------Футер-------------------- */
 
@@ -458,6 +460,8 @@ fill: #AFB1B8;
 background-color: var(--header-footer-color);
 padding-top: 60px;
 padding-bottom: 60px;
+max-width: 1600px;
+height: 252px;
 }
 
 .footer-logo {
@@ -490,6 +494,37 @@ color: var(--transparent-color);
     color: var(--accent-color);
 }
 
+.footer-text {
+    font-weight: 700;
+    line-height: 1.14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }   
+
+.footer-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    background-position: right;
+}
+
+.social {
+justify-content: center;
+align-items: center;
+padding-left: 70px;
+padding-top: 12px;
+padding-bottom: 100px;
+}
+
+.social-list {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 20px; */
+}
 /* ---------------Portfolio------------------ */
 
 .portfolio {
