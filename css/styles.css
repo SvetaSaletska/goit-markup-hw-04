@@ -246,7 +246,6 @@ border-radius: 4px;
 
 .button-secondary {
     padding: 6px 22px;
-    min-width: 103px;
 
     border-color: transparent;
     background-color: #F5F4FA;
@@ -514,9 +513,8 @@ color: #FFFFFF;
 .social {
 justify-content: center;
 align-items: center;
-padding-left: 70px;
+margin-left: 70px;
 padding-top: 12px;
-padding-bottom: 100px;
 }
 
 .social-list {
